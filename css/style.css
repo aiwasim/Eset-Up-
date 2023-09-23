@@ -1,0 +1,129 @@
+/* global CSS */
+body {
+    font-family: Montserrat;
+    /* font-family: 'Poppins', sans-serif; */
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+p {
+    color: #1D1B1B;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.btn {
+    border: 1px solid #EF0178;
+    background: #fff;
+    color: #EF0178;
+    padding: 12px 45px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+section {
+    padding: 40px 0px;
+}
+
+
+/* navbar style start */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10px;
+}
+
+li,
+a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.navbar-nav li {
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.navbar-nav li a {
+    transition: all 0.3s ease 0.3s;
+}
+
+.navbar-nav li a:hover {
+    color: #EF0178;
+}
+
+/* navbar style end */
+
+
+/* banner style start */
+
+.banner {}
+
+.banner-section {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+}
+
+.banner-section .banner-content {}
+
+.banner-section .banner-content h1 {
+    font-size: 55px;
+}
+
+.banner-section .banner-content span {
+    color: #EF0178;
+}
+
+.banner-section .banner-content p {
+    font-size: 14px;
+    padding: 25px 0px;
+}
+
+.banner-section .banner-content .btn-banner {
+    background: #5243C2;
+    color: #fff;
+    border: none;
+}
+
+.banner-section .banner-img img {
+    height: 100%;
+    width: 100%;
+}
+
+
+/* banner style end */
+
+/* meet clients start */
+
+.clients-content {
+    text-align: center;
+}
+
+.clients-content h4 {
+    color: #EF0178;
+}
+
+.clients-content h2 {
+    font-weight: 400;
+    padding: 20px 0px;
+}
+
+.clients-img {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+/* meet clients end */
